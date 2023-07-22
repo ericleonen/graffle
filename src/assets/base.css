@@ -1,0 +1,30 @@
+:root {
+    /* fonts */
+    --base-font: 'Jost', sans-serif;
+    --math-font: 'Noto Serif', serif;
+
+    /* colors */
+    --light-gray: lightgray;
+    --gray: gray;
+
+    /* borders & edges */
+    --base-border-radius: .25rem;
+    --base-border-thickness: .2rem;
+
+    /* sizes */
+    --app-width: 70vw;
+    --max-app-width: 400px;
+    --equation-height: 3.5rem;
+
+    /* margins & paddings */
+    --base-v-margin: 1rem;
+    --base-padding: .5rem;
+}
+
+@media screen and (max-width: 500px) {
+    :root {
+        --app-width: 80vw;
+        --equation-height: 2.5rem;
+        --base-v-margin: .5rem;
+    }
+}
